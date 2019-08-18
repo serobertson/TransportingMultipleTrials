@@ -5,9 +5,9 @@ Required R package is geex (to get the sandwich variance)
 
 1. sampledata.csv: Example simulated data to download and apply the estimators
 
-2. R_version_meta_analysis_code_tx_vary_ver4.R: Code to run estimators for varying treatment assignment mechanisms across trials
+2. R_version_meta_analysis_code_tx_vary.R: Code to run estimators for varying treatment assignment mechanisms across trials
 
-3. R_version_meta_analysis_code_tx_no_vary_ver4.R: Code to run estimators for non-varying treatment assignment mechanisms across trials
+3. R_version_meta_analysis_code_tx_no_vary.R: Code to run estimators for non-varying treatment assignment mechanisms across trials
 
-4. meta_analysis_ver4_sourcecode.R: Source code for the estimators
+4. meta_analysis_sourcecode.R: Source code for the estimators
 
