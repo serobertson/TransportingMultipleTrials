@@ -140,7 +140,7 @@ transport_collection_trial_W<-function(DF=DF,str_covariates,keep){
   IOW1<-((IOW1_1-IOW1_0)) 
   print(IOW1)
   
-  (param_start_IPWnew<-c(coef(tx_mod),coef(S0_mod),
+  (param_start_IPWnew<-c(coef(tx_mod),-1*coef(S0_mod),
                          ate=IOW1))
 
   b1<-DF[,c("Y", "A","S")]
